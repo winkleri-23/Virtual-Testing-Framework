@@ -42,13 +42,6 @@ That includes the time saved on testing, the quality of the testing, and the ove
 │   └── src                            # Source code of the module - Technology code
 └── Thesis.pdf                         # PDF version of the thesis
 ```
-## Installation
+## Installation & Usage
 
-[Provide instructions on how to install and set up your project.]
-
-## Usage
-
-[Explain how to use your project, including any relevant code examples.]
-
-
-Link to publication - dspace.cvut.cz
+Installation and usage instructions can be found in the [Thesis](Thesis.pdf) document in Apendix B.
