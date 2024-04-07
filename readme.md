@@ -20,28 +20,27 @@ That includes the time saved on testing, the quality of the testing, and the ove
 
 ## Directory Structure
 
-	\dirtree{%
-		.1 readme.md\DTcomment{Contents description}.
-		.1 sample\_module\DTcomment{Sample I/O module project with virtual testing}.
-		.2 emulator\DTcomment{Emulator project}.
-        .3 emul\_app\DTcomment{Server application for emulator}.
-        .3 emul\_client\_py\DTcomment{Shared files for VT clients}.
-        .3 emul\_common\DTcomment{Files shared between VT library components}.
-        .4 templates\DTcomment{Shared templates}.
-        .4 util \DTcomment{Shared tools}.
-        .3 emul\_dll\DTcomment{Emulator DLL library}.
-        .4 dll\_llc\_layer\DTcomment{LLC layer}.
-        .4 emul\_core\DTcomment{Emulator core - Event calendar}.
-        .4 emul\_log\DTcomment{Shared logging}.
-        .4 emul\_SPI\DTcomment{SPI emulation}.
-        .4 module\_data\_obj\DTcomment{Data objects for the sample module}.
-        .4 module\_interfaces\DTcomment{Module interface}.
-        .3 module\_client\DTcomment{Directory for testing clients}.
-        .4 sample\_module\_client\DTcomment{Client adjusted for the sample module}.
-        .2 module\_core\DTcomment{Module layer controlling hardware}.
-        .2 src\DTcomment{Source code of the module - Technology code}.
-		.1 Thesis.pdf\DTcomment{PDF version of the thesis}.
-	}
+- [readme.md](readme.md) <!-- Contents description -->
+- [sample_module](sample_module) <!-- Sample I/O module project with virtual testing -->
+  - [emulator](sample_module/emulator) <!-- Emulator project -->
+    - [emul_app](sample_module/emulator/emul_app) <!-- Server application for emulator -->
+    - [emul_client_py](sample_module/emulator/emul_client_py) <!-- Shared files for VT clients -->
+    - [emul_common](sample_module/emulator/emul_common) <!-- Files shared between VT library components -->
+      - [templates](sample_module/emulator/emul_common/templates) <!-- Shared templates -->
+      - [util](sample_module/emulator/emul_common/util) <!-- Shared tools -->
+    - [emul_dll](sample_module/emulator/emul_dll) <!-- Emulator DLL library -->
+      - [dll_llc_layer](sample_module/emulator/emul_dll/dll_llc_layer) <!-- LLC layer -->
+      - [emul_core](sample_module/emulator/emul_dll/emul_core) <!-- Emulator core - Event calendar -->
+      - [emul_log](sample_module/emulator/emul_dll/emul_log) <!-- Shared logging -->
+      - [emul_SPI](sample_module/emulator/emul_dll/emul_SPI) <!-- SPI emulation -->
+      - [module_data_obj](sample_module/emulator/emul_dll/module_data_obj) <!-- Data objects for the sample module -->
+      - [module_interfaces](sample_module/emulator/emul_dll/module_interfaces) <!-- Module interface -->
+    - [module_client](sample_module/emulator/module_client) <!-- Directory for testing clients -->
+      - [sample_module_client](sample_module/emulator/module_client/sample_module_client) <!-- Client adjusted for the sample module -->
+  - [module_core](sample_module/module_core) <!-- Module layer controlling hardware -->
+  - [src](sample_module/src) <!-- Source code of the module - Technology code -->
+- [Thesis.pdf](Thesis.pdf) <!-- PDF version of the thesis -->
+
 
 - [List the key features of your project.]
 
