@@ -15,7 +15,7 @@ public:
     DllMessageQueue(const DllMessageQueue&) = delete;
 
     auto operator=(const DllMessageQueue&) = delete;
-
+    
 
     /// @brief Constructor
     /// @param getFunction Get Message function 
