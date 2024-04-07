@@ -21,26 +21,26 @@ That includes the time saved on testing, the quality of the testing, and the ove
 ## Directory Structure
 ```
 .
-├── readme.md          # Contents description
-├── sample_module      # Sample I/O module project with virtual testing
-│   ├── emulator       # Emulator project
-│   │   ├── emul_app          # Server application for emulator
-│   │   ├── emul_client_py    # Shared files for VT clients
-│   │   ├── emul_common       # Files shared between VT library components
-│   │   │   ├── templates     # Shared templates
-│   │   │   └── util          # Shared tools
-│   │   ├── emul_dll         # Emulator DLL library
-│   │   │   ├── dll_llc_layer    # LLC layer
-│   │   │   ├── emul_core        # Emulator core - Event calendar
-│   │   │   ├── emul_log         # Shared logging
-│   │   │   ├── emul_SPI         # SPI emulation
-│   │   │   ├── module_data_obj  # Data objects for the sample module
-│   │   │   └── module_interfaces # Module interface
-│   │   └── module_client    # Directory for testing clients
+├── readme.md                          # Contents description
+├── sample_module                      # Sample I/O module project with virtual testing
+│   ├── emulator                       # Emulator project
+│   │   ├── emul_app                   # Server application for emulator
+│   │   ├── emul_client_py             # Shared files for VT clients
+│   │   ├── emul_common                # Files shared between VT library components
+│   │   │   ├── templates              # Shared templates
+│   │   │   └── util                   # Shared tools
+│   │   ├── emul_dll                   # Emulator DLL library
+│   │   │   ├── dll_llc_layer          # LLC layer
+│   │   │   ├── emul_core              # Emulator core - Event calendar
+│   │   │   ├── emul_log               # Shared logging
+│   │   │   ├── emul_SPI               # SPI emulation
+│   │   │   ├── module_data_obj        # Data objects for the sample module
+│   │   │   └── module_interfaces      # Module interface
+│   │   └── module_client              # Directory for testing clients
 │   │       └── sample_module_client   # Client adjusted for the sample module
-│   ├── module_core     # Module layer controlling hardware
-│   └── src             # Source code of the module - Technology code
-└── Thesis.pdf          # PDF version of the thesis
+│   ├── module_core                    # Module layer controlling hardware
+│   └── src                            # Source code of the module - Technology code
+└── Thesis.pdf                         # PDF version of the thesis
 ```
 ## Installation
 
