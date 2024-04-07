@@ -19,6 +19,7 @@ That includes the time saved on testing, the quality of the testing, and the ove
 
 
 ## Directory Structure
+The directory structure of the repository is as follows:
 ```
 .
 ├── readme.md                          # Contents description
@@ -42,6 +43,13 @@ That includes the time saved on testing, the quality of the testing, and the ove
 │   └── src                            # Source code of the module - Technology code
 └── Thesis.pdf                         # PDF version of the thesis
 ```
-## Installation & Usage
 
+The module_core and src directory represent the code of the IO module. 
+Everything connected to the Virtual Testing is included in the emulator directory. 
+
+## Requirements
+- Visual Studio 2019 with C++ development tools
+- Python 3.10.10 and above
+
+## Installation & Usage
 Installation and usage instructions can be found in the [Thesis](Thesis.pdf) document in Apendix B.
