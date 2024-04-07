@@ -19,7 +19,7 @@ That includes the time saved on testing, the quality of the testing, and the ove
 
 
 ## Directory Structure
-
+```
 .
 ├── readme.md          # Contents description
 ├── sample_module      # Sample I/O module project with virtual testing
@@ -41,7 +41,7 @@ That includes the time saved on testing, the quality of the testing, and the ove
 │   ├── module_core     # Module layer controlling hardware
 │   └── src             # Source code of the module - Technology code
 └── Thesis.pdf          # PDF version of the thesis
-
+```
 ## Installation
 
 [Provide instructions on how to install and set up your project.]
