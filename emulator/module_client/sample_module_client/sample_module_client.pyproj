@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>015c6f44-286b-4b61-8ade-8374aedbf7c5</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test_WB.py</StartupFile>
+    <StartupFile>test_square_signal.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
