@@ -1,0 +1,119 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Preprocessor output
+*.i
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Python compiled files
+*.pyc
+**/__pycache__/**
+
+# ProteusLogger stuff (Visual Studio files)
+/ProteusLogger/.vs/**
+/ProteusLogger/Release/**
+!/ProteusLogger/Lib/**
+
+# Unit tests stuff (Visual Studio Files)
+**/TEST_*.xml
+**/unit_tests/packages
+**/unit_tests/**/Debug/**
+**/unit_tests/**/Release/**
+**/unit_tests/.vs/**
+
+# OpenCppCoverage
+**/CoverageReport-*
+**/LastCoverageResults.log
+**/131-6TF00_Namur8/3_func_i/unit_tests/output/**
+
+# Static analysis
+sonar-project.properties
+131-6TF00_Namur8/3_func_i/static_analysis/pclint_conf/__pycache__/**
+131-6TF00_Namur8/3_func_i/static_analysis/output
+
+# Emulator stuff (Visual Studio Files)
+**/emulator/**/Debug*/**
+**/emulator/**/Release*/**
+**/emulator/.vs/**
+**/emulator/*.dgml
+**/emulator/emulator/Output*.txt
+**/emulator/emul_dll/int_tests*/**
+
+
+## TODO Probably remove from here.
+.vs/
+131-6TF00_Namur8/.vs/
+
+
+# Misc
+
+**/obj/**
+**/res/**
+**/_res/**
+**/tmp/**
+**/deb/**/*.elf
+**/deb/**/*.out
+**/deb/**/*.txb
+**/deb/**/*.dep
+**/deb/**/*.ewt
+**/deb/*.xlsm
+**/deb/settings/**
+1_boot_e/bat/gen_em_f
+3_func_e/bat/gen_em_f
+3_func_e/src/basy/amr_em
+3_func_e/src/basy/amr_em
+3_func_e/src/basy/debug
+3_func_e/src/basy/emled
+3_func_e/src/basy/glob
+3_func_e/src/basy/help
+3_func_e/src/basy/if
+3_func_e/src/basy/isoc
+3_func_e/src/basy/isoclib
+3_func_e/src/basy/kali
+3_func_e/src/basy/pe
+3_func_e/src/basy/peri
+3_func_e/src/basy/pntime
+3_func_e/src/basy/pral
+3_func_e/src/basy/psif
+3_func_e/src/basy/redu
+3_func_e/src/basy/soe_em
+3_func_e/src/basy/sprp
+3_func_e/src/basy/uc
+
+svd.*
+ds.*
+trace.*
+**/_doc/~$leasenote.doc
+
+**/.idea
+/131-6TF00_Namur8/3_func_i/emulator/di_namur_itest
+/emulator/app

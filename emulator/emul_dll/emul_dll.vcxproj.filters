@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="emul_core">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="emul_core\headers">
+      <UniqueIdentifier>{1ec27f79-d0b1-4670-bef5-3cc13aa3914e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emul_core\src">
+      <UniqueIdentifier>{3039d02b-2259-409a-9ad0-597d65882a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="llc_layer">
+      <UniqueIdentifier>{af66c419-51fb-43fd-9201-b280eb7fbf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{8191c349-deb9-4910-b52f-17503002e880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emul_SPI">
+      <UniqueIdentifier>{5e846273-5ee8-43c4-a1b3-6f6fba0c6cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data_obj">
+      <UniqueIdentifier>{c480e071-5141-4fc2-b76f-226a45f34863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module_interface">
+      <UniqueIdentifier>{75aafd61-107b-44c3-b1e7-13b049884009}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module_src">
+      <UniqueIdentifier>{8abc5545-f9f6-46af-baf4-75a8f2361066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module_core">
+      <UniqueIdentifier>{6a28f52e-4fac-448c-bf6d-50dbfae83e7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emul_core\emul_common">
+      <UniqueIdentifier>{d439bb38-4432-4e3d-9aba-977bb3690e3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="emul_core\emulator.cpp">
+      <Filter>emul_core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="emul_core\vector_solution.cpp">
+      <Filter>emul_core\src</Filter>
+    </ClCompile>
+    <ClCompile Include="dll_llc_layer\dll_llc_payload.cpp">
+      <Filter>llc_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="dll_llc_layer\dll_llc_interface.cpp">
+      <Filter>llc_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="emul_SPI\SPI_simulator.cpp">
+      <Filter>emul_SPI</Filter>
+    </ClCompile>
+    <ClCompile Include="module_interfaces\MODULE_emul_interface.cpp">
+      <Filter>module_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\module_tech.cpp">
+      <Filter>module_src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\module_core\input_output_control.cpp">
+      <Filter>module_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\module_core\diagnostics.cpp">
+      <Filter>module_core</Filter>
+    </ClCompile>
+    <ClCompile Include="emul_log\logger.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="emul_core\emulator.h">
+      <Filter>emul_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_core\vector_solution.h">
+      <Filter>emul_core\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_llc_layer\dll_llc_payload.h">
+      <Filter>llc_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_log\logger.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_SPI\SPI_simulator.h">
+      <Filter>emul_SPI</Filter>
+    </ClInclude>
+    <ClInclude Include="module_data_obj\data_obj.hpp">
+      <Filter>data_obj</Filter>
+    </ClInclude>
+    <ClInclude Include="module_data_obj\pack.hpp">
+      <Filter>data_obj</Filter>
+    </ClInclude>
+    <ClInclude Include="module_interfaces\emul_interface.h">
+      <Filter>module_interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\module_data.h">
+      <Filter>module_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\module_tech.h">
+      <Filter>module_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\module_tech_config.h">
+      <Filter>module_src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\module_core\chip_control.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\module_core\input_output_control.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\module_core\module_timer.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\module_core\diagnostics.h">
+      <Filter>module_core</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_log\message_queue.hpp">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_log\emul_concepts.hpp">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_log\log_type.hpp">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_log\log_message.hpp">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="emul_log\dll_message_queue.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\emul_common\emul_dll.h">
+      <Filter>emul_core\emul_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\emul_common\emul_llc.h">
+      <Filter>emul_core\emul_common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
