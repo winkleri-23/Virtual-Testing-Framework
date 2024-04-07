@@ -22,25 +22,22 @@ That includes the time saved on testing, the quality of the testing, and the ove
 
 - [readme.md](readme.md) <!-- Contents description -->
 - [sample_module](sample_module) <!-- Sample I/O module project with virtual testing -->
-  - [emulator](sample_module/emulator) <!-- Emulator project -->
-    - [emul_app](sample_module/emulator/emul_app) <!-- Server application for emulator -->
-    - [emul_client_py](sample_module/emulator/emul_client_py) <!-- Shared files for VT clients -->
-    - [emul_common](sample_module/emulator/emul_common) <!-- Files shared between VT library components -->
-      - [templates](sample_module/emulator/emul_common/templates) <!-- Shared templates -->
-      - [util](sample_module/emulator/emul_common/util) <!-- Shared tools -->
-    - [emul_dll](sample_module/emulator/emul_dll) <!-- Emulator DLL library -->
-      - [dll_llc_layer](sample_module/emulator/emul_dll/dll_llc_layer) <!-- LLC layer -->
-      - [emul_core](sample_module/emulator/emul_dll/emul_core) <!-- Emulator core - Event calendar -->
-      - [emul_log](sample_module/emulator/emul_dll/emul_log) <!-- Shared logging -->
-      - [emul_SPI](sample_module/emulator/emul_dll/emul_SPI) <!-- SPI emulation -->
-      - [module_data_obj](sample_module/emulator/emul_dll/module_data_obj) <!-- Data objects for the sample module -->
-      - [module_interfaces](sample_module/emulator/emul_dll/module_interfaces) <!-- Module interface -->
-    - [module_client](sample_module/emulator/module_client) <!-- Directory for testing clients -->
-      - [sample_module_client](sample_module/emulator/module_client/sample_module_client) <!-- Client adjusted for the sample module -->
-  - [module_core](sample_module/module_core) <!-- Module layer controlling hardware -->
-  - [src](sample_module/src) <!-- Source code of the module - Technology code -->
+  |- [emulator](sample_module/emulator) <!-- Emulator project -->
+  |  |- [emul_app](sample_module/emulator/emul_app) <!-- Server application for emulator -->
+  |  |- [emul_client_py](sample_module/emulator/emul_client_py) <!-- Shared files for VT clients -->
+  |  |- [emul_common](sample_module/emulator/emul_common) <!-- Files shared between VT library components -->
+  |  |  |- [templates](sample_module/emulator/emul_common/templates) <!-- Shared templates -->
+  |  |  \- [util](sample_module/emulator/emul_common/util) <!-- Shared tools -->
+  |  \- [emul_dll](sample_module/emulator/emul_dll) <!-- Emulator DLL library -->
+  |     |- [dll_llc_layer](sample_module/emulator/emul_dll/dll_llc_layer) <!-- LLC layer -->
+  |     |- [emul_core](sample_module/emulator/emul_dll/emul_core) <!-- Emulator core - Event calendar -->
+  |     |- [emul_log](sample_module/emulator/emul_dll/emul_log) <!-- Shared logging -->
+  |     |- [emul_SPI](sample_module/emulator/emul_dll/emul_SPI) <!-- SPI emulation -->
+  |     |- [module_data_obj](sample_module/emulator/emul_dll/module_data_obj) <!-- Data objects for the sample module -->
+  |     \- [module_interfaces](sample_module/emulator/emul_dll/module_interfaces) <!-- Module interface -->
+  \- [module_core](sample_module/module_core) <!-- Module layer controlling hardware -->
+  \- [src](sample_module/src) <!-- Source code of the module - Technology code -->
 - [Thesis.pdf](Thesis.pdf) <!-- PDF version of the thesis -->
-
 
 - [List the key features of your project.]
 
