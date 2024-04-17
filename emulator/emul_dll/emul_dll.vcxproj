@@ -96,8 +96,11 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;EMULDLL_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(MSBuildProjectDirectory)\..\emul_common\util;$(MSBuildProjectDirectory)\..\emul_common\util\log;$(MSBuildProjectDirectory)\..\emul_common;$(MSBuildProjectDirectory)\module_interfaces;$(MSBuildProjectDirectory)\emul_data_obj;$(MSBuildProjectDirectory)\emul_SPI;$(MSBuildProjectDirectory)\dll_llc_layer;$(MSBuildProjectDirectory)\emul_log;$(MSBuildProjectDirectory)\emul_core;$(MSBuildProjectDirectory)\..\..\src;$(MSBuildProjectDirectory)\..\..\module_core;$(MSBuildProjectDirectory)\module_data_obj;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

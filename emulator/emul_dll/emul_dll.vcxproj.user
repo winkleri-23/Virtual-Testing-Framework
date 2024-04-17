@@ -5,4 +5,9 @@
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
     <LocalDebuggerCommandArguments>-L ..\..\emul_dll\Debug\emul_dll.dll -I --log-level INFO</LocalDebuggerCommandArguments>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommandArguments>-L ..\..\emul_dll\Release\emul_dll.dll -I --log-level INFO</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommand>..\emulator\emul_app\Release\emul_app.exe</LocalDebuggerCommand>
+  </PropertyGroup>
 </Project>

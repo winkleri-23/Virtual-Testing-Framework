@@ -85,9 +85,6 @@
     <ClInclude Include="dll_llc_layer\dll_llc_payload.h">
       <Filter>llc_layer</Filter>
     </ClInclude>
-    <ClInclude Include="emul_log\logger.h">
-      <Filter>log</Filter>
-    </ClInclude>
     <ClInclude Include="emul_SPI\SPI_simulator.h">
       <Filter>emul_SPI</Filter>
     </ClInclude>
@@ -121,26 +118,14 @@
     <ClInclude Include="..\..\module_core\diagnostics.h">
       <Filter>module_core</Filter>
     </ClInclude>
-    <ClInclude Include="emul_log\message_queue.hpp">
-      <Filter>log</Filter>
-    </ClInclude>
-    <ClInclude Include="emul_log\emul_concepts.hpp">
-      <Filter>log</Filter>
-    </ClInclude>
-    <ClInclude Include="emul_log\log_type.hpp">
-      <Filter>log</Filter>
-    </ClInclude>
-    <ClInclude Include="emul_log\log_message.hpp">
-      <Filter>log</Filter>
-    </ClInclude>
-    <ClInclude Include="emul_log\dll_message_queue.h">
-      <Filter>log</Filter>
-    </ClInclude>
     <ClInclude Include="..\emul_common\emul_dll.h">
       <Filter>emul_core\emul_common</Filter>
     </ClInclude>
     <ClInclude Include="..\emul_common\emul_llc.h">
       <Filter>emul_core\emul_common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\emul_common\util\log\logger.hpp">
+      <Filter>emul_core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
